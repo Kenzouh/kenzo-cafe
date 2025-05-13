@@ -83,22 +83,6 @@ app.get('/kenzoCafe/contact', (req, res) => {
     res.render('contact');
 });
 
-
-
-
-
-
-
-/* 
-
-/kenzoCafe
-/kenzoCafe/products/sweetsAndBeverages
-/kenzoCafe/buy
-/kenzoCafe/faq
-/kenzoCafe/aboutUs
-
-
-*/
 app.listen(3000, () => {
     console.log("Running on port 3000!");
     console.log("http://localhost:3000/kenzoCafe");
