@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Kenzo's | About Us</title>
+
+    <meta charset="UTF-8" />
+    <meta name="description" content="Kenzo's Bakery filled with goodies to follow your heart's desire." />
+    <meta name="keywords" content="Cafe, Cookies, Snacks, Cupcakes, Beverages, Macchiato, Latte, Milkshake, Coffee" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--meta http-equiv="refresh" content="60" /-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    
+    <link rel="stylesheet" href="/output.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <link rel="icon" type="image/jpg" href="/img/cafe.jpg" />
+
+</head>
+
+<body class="bg-[url('img/cafe.jpg')] bg-no-repeat bg-center bg-fixed bg-cover bg-opacity-5">
+
+    <!-- fixed = lets the black overlay stay even when scrolling. -->
+    <div class="fixed inset-0 bg-black opacity-75 z-0"></div>
+
+    <!-- Navbar -->
+    <nav id="sidebar" class="box-border h-screen w-[270px] p-[5px_1em] bg-customBrown2-ultimateDark border-r border-line-color 
+    sticky top-0 self-start transition-all duration-300 ease-in-out overflow-hidden whitespace-nowrap">
+        <ul class="list-none">
+            <li class="flex justify-end mb-4">
+                <span class="logo font-semibold rounded-lgd p-3 no-underline text-nav-text flex items-center gap-4">Kenzo's</span>
+                
+                <button onclick="toggleSidebar()" id="toggle-btn" class="ml-auto p-4 border-0 rounded-lg bg-none
+                cursor-pointer hover:bg-nav-hover active:bg-nav-active">
+                    <svg class="flex-shrink-0 fill-current text-nav-text
+                    transition-transform duration-[150ms] ease" xmlns="http://www.w3.org/2000/svg" height="24px" 
+                    viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M440-240 200-480l240-240 56 56-183 184 183 184-56 56Zm264 0L464-480l240-240 56 56-183 184 183 184-56 56Z"/></svg>
+                </button>
+            </li>
+
+
+            <!-- Home Section -->
+            <li>
+                <a href="/kenzoCafe" class="rounded-lg p-3 no-underline flex items-center gap-4
+                hover:bg-nav-hover active:bg-nav-active text-nav-text">
+                    <svg class="flex-shrink-0 fill-current" xmlns="http://www.w3.org/2000/svg" 
+                    height="24px" viewBox="0 -960 960 960" width="24px" fill="currentColor"><path d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z"/></svg>
+                    <span>Home</span>
+                </a>
+            </li>
+
+            <hr class="border-nav-hr" />
+
+
+            <!-- Products -->
+            <li class="active">
+                <a href="/kenzoCafe/products/sweetsAndBeverages" class="rounded-lg p-3 no-underline flex items-center gap-4
+                text-nav-text hover:bg-nav-hover active:bg-nav-active">
+                <svg class="flex-shrink-0 fill-current text-nav-text
+                transition-all duration-[200ms] ease" xmlns="http://www.w3.org/2000/svg" 
+                height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
+                <path d="M160-120v-80h640v80H160Zm160-160q-66 0-113-47t-47-113v-400h640q33 0 56.5 23.5T880-760v120q0 33-23.5 56.5T800-560h-80v120q0 66-47 113t-113 47H320Zm0-480h320-400 80Zm400 120h80v-120h-80v120ZM560-360q33 0 56.5-23.5T640-440v-320H400v16l72 58q2 2 8 16v170q0 8-6 14t-14 6H300q-8 0-14-6t-6-14v-170q0-2 8-16l72-58v-16H240v320q0 33 23.5 56.5T320-360h240ZM360-760h40-40Z"/></svg>
+                    <span>Products</span>
+                </a>
+            </li>
+
+
+
+
+            <!-- Order Section-->
+
+            <li class="active">
+                <a href="/kenzoCafe/order/orderSweetsAndBeverages" class="rounded-lg p-3 no-underline flex items-center gap-4
+                text-nav-text hover:bg-nav-hover active:bg-nav-active">
+                <svg class="flex-shrink-0 fill-current text-nav-text
+                transition-transform duration-[150ms] ease" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M280-80q-33 0-56.5-23.5T200-160q0-33 23.5-56.5T280-240q33 0 56.5 23.5T360-160q0 33-23.5 56.5T280-80Zm400 0q-33 0-56.5-23.5T600-160q0-33 23.5-56.5T680-240q33 0 56.5 23.5T760-160q0 33-23.5 56.5T680-80ZM246-720l96 200h280l110-200H246Zm-38-80h590q23 0 35 20.5t1 41.5L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68-39.5t-2-78.5l54-98-144-304H40v-80h130l38 80Zm134 280h280-280Z"/></svg>
+                    <span>Order</span>
+                </a>
+            </li>
+
+            <hr class="border-nav-hr"/>
+
+
+            <!-- Special Offers Section -->
+            <li class="active">
+                <a href="/kenzoCafe/specialOffers" class="rounded-lg p-3 no-underline flex items-center gap-4
+                text-nav-text hover:bg-nav-hover active:bg-nav-active">
+                <svg class="flex-shrink-0 fill-current text-nav-text
+                transition-transform duration-[150ms] ease" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M856-390 570-104q-12 12-27 18t-30 6q-15 0-30-6t-27-18L103-457q-11-11-17-25.5T80-513v-287q0-33 23.5-56.5T160-880h287q16 0 31 6.5t26 17.5l352 353q12 12 17.5 27t5.5 30q0 15-5.5 29.5T856-390ZM513-160l286-286-353-354H160v286l353 354ZM260-640q25 0 42.5-17.5T320-700q0-25-17.5-42.5T260-760q-25 0-42.5 17.5T200-700q0 25 17.5 42.5T260-640Zm220 160Z"/></svg>
+                    <span>Special Offers</span>
+                </a>
+            </li>
+
+            <!-- Loyalty Program Section -->
+            <li>
+                <button onclick=toggleSubMenu(this) class="dropdown-btn 
+                rounded-lg p-[0.85em] no-underline text-nav-text flex items-center gap-4
+                w-full text-left bg-transparent border-0 font-inherit cursor-pointer
+                hover:bg-nav-hover active:bg-nav-active">
+                <svg class="flex-shrink-0 fill-current text-nav-text
+                transition-transform duration-[150ms] ease" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m387-412 35-114-92-74h114l36-112 36 112h114l-93 74 35 114-92-71-93 71ZM240-40v-309q-38-42-59-96t-21-115q0-134 93-227t227-93q134 0 227 93t93 227q0 61-21 115t-59 96v309l-240-80-240 80Zm240-280q100 0 170-70t70-170q0-100-70-170t-170-70q-100 0-170 70t-70 170q0 100 70 170t170 70ZM320-159l160-41 160 41v-124q-35 20-75.5 31.5T480-240q-44 0-84.5-11.5T320-283v124Zm160-62Z"/></svg>
+
+                    <span class="flex-grow">Loyalty Programs</span>
+                    <svg class="flex-shrink-0 fill-current text-nav-text
+                    transition-all duration-[200ms] ease" xmlns="http://www.w3.org/2000/svg" height="24px" 
+                    viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"/></svg>
+                </button>
+
+                <ul class="sub-menu grid grid-rows-[0fr] transition-all duration-[300ms] ease-in-out pl-8">
+                    <div class="overflow-hidden">
+                        <li><a href="/kenzoCafe/loyalty/switzerlandTrip" class="rounded-lg p-3 no-underline text-nav-text flex items-center gap-4
+                            hover:bg-nav-hover active:bg-nav-active">Trip To Switzerland</a></li>
+                        <li><a href="/kenzoCafe/loyalty/factoryTrip" class="rounded-lg p-3 no-underline text-nav-text flex items-center gap-4
+                            hover:bg-nav-hover active:bg-nav-active">Trip To The Factory</a></li>
+
+                    </div>
+                </ul>
+            </li>
+
+            <hr class="border-nav-hr"/>
+
+
+
+
+            <!-- Customer Reviews Section -->
+            <li class="active">
+                <a href="/kenzoCafe/customerReviews" class="rounded-lg p-3 no-underline flex items-center gap-4
+                text-nav-text hover:bg-nav-hover active:bg-nav-active">
+                <svg class="flex-shrink-0 fill-current text-nav-text
+                transition-all duration-[200ms] ease" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M480-320q48 0 85.5-28.5T620-422H340q17 45 54.5 73.5T480-320ZM380-480q25 0 42.5-17.5T440-540q0-25-17.5-42.5T380-600q-25 0-42.5 17.5T320-540q0 25 17.5 42.5T380-480Zm200 0q25 0 42.5-17.5T640-540q0-25-17.5-42.5T580-600q-25 0-42.5 17.5T520-540q0 25 17.5 42.5T580-480ZM305-704l112-145q12-16 28.5-23.5T480-880q18 0 34.5 7.5T543-849l112 145 170 57q26 8 41 29.5t15 47.5q0 12-3.5 24T866-523L756-367l4 164q1 35-23 59t-56 24q-2 0-22-3l-179-50-179 50q-5 2-11 2.5t-11 .5q-32 0-56-24t-23-59l4-165L95-523q-8-11-11.5-23T80-570q0-25 14.5-46.5T135-647l170-57Zm49 69-194 64 124 179-4 191 200-55 200 56-4-192 124-177-194-66-126-165-126 165Zm126 135Z"/></svg>
+                    <span>Customer Reviews </span>
+                </a>
+            </li>
+
+
+
+            <!-- FAQ Section -->
+            <li class="active">
+                <a href="/kenzoCafe/faqs" class="rounded-lg p-3 no-underline flex items-center gap-4
+                text-nav-text hover:bg-nav-hover active:bg-nav-active">
+                <svg class="flex-shrink-0 fill-current" xmlns="http://www.w3.org/2000/svg" height="24px" 
+                viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
+                <path d="M478-240q21 0 35.5-14.5T528-290q0-21-14.5-35.5T478-340q-21 0-35.5 14.5T428-290q0 21 14.5 35.5T478-240Zm-36-154h74q0-33 7.5-52t42.5-52q26-26 41-49.5t15-56.5q0-56-41-86t-97-30q-57 0-92.5 30T342-618l66 26q5-18 22.5-39t53.5-21q32 0 48 17.5t16 38.5q0 20-12 37.5T506-526q-44 39-54 59t-10 73Zm38 314q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"/></svg>
+                    <span>FAQs</span>
+                </a>
+            </li>
+
+            <hr class="border-nav-hr" />
+
+            <!-- Profile Section-->
+            <li>
+                <a href="/kenzoCafe/aboutUs" class="rounded-lg p-3 no-underline text-nav-here flex items-center gap-4">
+                    <svg class="flex-shrink-0 fill-current text-nav-here" xmlns="http://www.w3.org/2000/svg" 
+                    height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M480-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47ZM160-160v-112q0-34 17.5-62.5T224-378q62-31 126-46.5T480-440q66 0 130 15.5T736-378q29 15 46.5 43.5T800-272v112H160Zm80-80h480v-32q0-11-5.5-20T700-306q-54-27-109-40.5T480-360q-56 0-111 13.5T260-306q-9 5-14.5 14t-5.5 20v32Zm240-320q33 0 56.5-23.5T560-640q0-33-23.5-56.5T480-720q-33 0-56.5 23.5T400-640q0 33 23.5 56.5T480-560Zm0-80Zm0 400Z"/></svg>
+                    <span>About Us</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <main class="m-12">
+        <div class="mb-36">
+            <p class="title text-white text-8xl text-center relative">~~ Kenzo's ~~</p><br/>
+            
+            <p class="relative indent-16 text-white text-justify mx-20 text-2xl">Kenzo's is a fictitious café shop by 
+                the time this has been uploaded. It features a wide variety of delicacies prepared to satisfy your
+                sweet, scrumptious cravings! This is mainly focused on implementing a user-friendly HTML Forms as an 
+                output for my 3rd assignment in Web Development. This took me a week to finish coding while the HTML
+                forms took most of my time due to its complexity.</p><br/>
+
+            <p class="relative indent-16 text-white text-justify mx-20 text-2xl">This website features different
+                delicacies mainly categorized as "Cookies", "Biscuits", "Cupcakes" and "Beverages". The names are either
+                the conventional type of names while the others such as "Frosty Decadence" and "Tropical Feast" are 
+                invented by me.
+                </p><br/>
+
+            <p class="relative indent-16 text-white text-justify mx-20 text-2xl">Thank you for taking the time
+                to visit my website! I hope you enjoyed!</p>
+
+            <div class="relative float-right text-white text-2xl mx-20">
+                <p>Best regards,</p>
+                <p>Kenzo</p>
+            </div>
+        </div>
+
+        
+        <p class="title text-white text-8xl text-center relative py-8">~~ Contact Us ~~</p><br/>
+
+
+        <div class="flex justify-center items-center space-x-32 my-16">
+            <div class="flex justify-center items-center flex-col text-center">
+                <a href="https://github.com/Kenzouh" target="_none">
+                    <i class="relative fa-brands fa-github text-white text-[150px] 
+                    hover:text-slate-300 active:text-slate-500 mb-4"></i>
+                </a>
+                <a href="https://github.com/Kenzouh" class="relative text-yellow-200 
+                hover:text-yellow-300 active:text-yellow-500 text-7xl" target="_none">Kenzouh</a>
+            </div>
+    
+            <div class="flex justify-center items-center flex-col text-center">
+                <a href="https://github.com/Kenzouh" target="_none">
+                    <i class="fa-brands fa-linkedin relative text-white text-[150px] 
+                    hover:text-slate-300 active:text-slate-500 mb-4"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/kenzo-ragundiaz-6b5136290/" 
+                class="relative text-yellow-200 hover:text-yellow-300 active:text-yellow-500 
+                text-7xl" target="_none">Kenzo</a>
+            </div>
+        </div>
+    
+        <script src="https://kit.fontawesome.com/4f48ac18f0.js" crossorigin="anonymous"></script>
+    </main>
+
+    <script src="/js/index.js" defer></script>
+</body>
+</html>
