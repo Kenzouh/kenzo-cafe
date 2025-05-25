@@ -1,0 +1,102 @@
+@font-face{
+    src: url('/fonts/Adhun%20Mage%20Trial.ttf') format('truetype');
+    font-family: 'Adhun-Mage-Trial';
+}
+@font-face{
+    src: url('/fonts/ChocoBubble-BallonStyle.ttf');
+    font-family: "ChocoBubble";
+}
+@font-face{
+    src: url('/fonts/PlaywriteGBS-Italic-VariableFont_wght.ttf');
+    font-family: PlaywriteGBS;
+}
+
+/*================================= Navbar =================================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Kalnia+Glaze:wght@100..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playwrite+BE+VLG:wght@100..400&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+
+html{
+    font-family: Poppins, 'Segoe UI', Tahoma, Geneva, Verdana;
+    line-height: 1.5rem;
+}
+
+body{
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: grid;
+    grid-template-columns: auto 1fr; /* The sidebar will only be as big as it needs to be. */
+    gap: 20px;
+}
+
+#sidebar{
+    text-wrap: nowrap;
+}
+
+#sidebar.close{
+    padding: 5px;
+    width: 60px;
+    overflow: hidden;
+}
+
+.logo{
+    font-family: 'Adhun-Mage-Trial', 'ChocoBubble', sans-serif;
+}
+
+#sidebar.close .sub-menu, #sidebar.close ul {
+    overflow: hidden;
+}
+
+
+#sidebar .sub-menu.show{
+    grid-template-rows: 1fr; /* Overriding the 0fr from #sidebar .sub-menu  */
+}
+
+/* Rotates the arrow only and not the create icon. */
+.rotate svg:last-child{
+    rotate: 180deg;
+}
+
+
+/* ================================= index.ejs ================================= */
+
+.cookies{
+    font-family: 'Adhun-Mage-Trial', 'ChocoBubble', sans-serif;
+}
+
+.title{
+    font-family: 'Adhun-Mage-Trial', 'ChocoBubble', sans-serif;
+}
+
+/*
+nav li{
+    font-family: 'Adhun-Mage-Trial', sans-serif;
+}
+*/
+/* ================================= buy.ejs ================================= */
+
+form h1{
+    font-family: sans-serif, 'PlaywriteGBS', 'ChocoBubble';
+}
+.required::after{
+    content: " *";
+    color: #FF8E8E;
+}
+
+/* ================================= index.js ================================= */
+
+.xIcon{
+    background-color: #EF4444;
+    font-size: 20px; 
+    line-height: 28px;
+    padding: 16px;
+
+    border-radius: 9999px;
+    cursor: pointer;
+}
+    .xIcon:hover{
+    background-color: #B91C1C;
+    }
+    
+    .xIcon:active{
+    background-color: #7F1D1D;
+    }
