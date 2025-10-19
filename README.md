@@ -1,4 +1,4 @@
-NPM Guide and Installation of packages:
+# NPM Guide and Installation of packages:
 
 1. npm init -y
 2. npm i ejs
@@ -6,7 +6,9 @@ NPM Guide and Installation of packages:
 
 4. Git Bash: node index.js
 
-Tailwind CSS Installation:
+---
+
+# Tailwind CSS Installation:
 
 1. npm install -D tailwindcss
 2. npx tailwindcss init (Terminal! Not GitBash)
