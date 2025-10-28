@@ -1,3 +1,11 @@
+# Kenzo Cafe Pages
+
+## About Us Page
+
+This section talks about the fictitious company "Kenzo Cafe."
+
+---
+
 # Package Installation
 
 ## NPM Guide and Installation of packages:
