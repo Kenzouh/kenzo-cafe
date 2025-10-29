@@ -6,6 +6,12 @@ This section talks about the fictitious company "Kenzo Cafe."
 
 ---
 
+## Customer Reviews
+
+This page is dedicated for showcasing the customer reviews from Kenzo Cafe's services.
+
+---
+
 # Package Installation
 
 ## NPM Guide and Installation of packages:
