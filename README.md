@@ -12,6 +12,12 @@ This page is dedicated for showcasing the customer reviews from Kenzo Cafe's ser
 
 ---
 
+## Frequently Asked Questions (FAQs)
+
+This section is for compiling the frequently asked questions of the Kenzo Cafe customers.
+
+---
+
 # Package Installation
 
 ## NPM Guide and Installation of packages:
