@@ -18,6 +18,12 @@ This section is for compiling the frequently asked questions of the Kenzo Cafe c
 
 ---
 
+## Loyalty Programs
+
+This section is for showcasing the awards the VIP customer can get, such as having a Factory Trip to Kenzo Cafe's Factory, then winning a travel trip to Switzerland if lucky enough to be chosen.
+
+---
+
 # Package Installation
 
 ## NPM Guide and Installation of packages:
