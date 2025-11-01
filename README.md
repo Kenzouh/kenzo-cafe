@@ -24,6 +24,12 @@ This section is for showcasing the awards the VIP customer can get, such as havi
 
 ---
 
+## Order
+
+In this section, the customer can choose and order products he wants to buy.
+
+---
+
 # Package Installation
 
 ## NPM Guide and Installation of packages:
