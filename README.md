@@ -30,6 +30,12 @@ In this section, the customer can choose and order products he wants to buy.
 
 ---
 
+# Products
+
+This section is dedicated on displaying the sweets and beverages that Kenzo Cafe sells.
+
+---
+
 # Package Installation
 
 ## NPM Guide and Installation of packages:
