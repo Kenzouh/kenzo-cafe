@@ -9,3 +9,5 @@ It features 5 of the frequently asked questions, such as:
 3. What is your best-selling food and drink?
 4. Do you offer free Wi-Fi?
 5. Do you have loyalty programs? What are the benefits if yes?
+
+This page will help answer the questions of Kenzo Cafe's customers which will prevent confusions.
