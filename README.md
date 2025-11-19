@@ -122,6 +122,8 @@ This section showcases the VIP perks you can get if you subscribed to the VIP su
 
 # Package Installation
 
+This section is dedicated for explaining the gist of how this setup with node and Tailwind is modified.
+
 ## NPM Guide and Installation of packages:
 
 1. npm init -y
