@@ -147,3 +147,9 @@ This section is dedicated for explaining the gist of how this setup with node an
     5.1 "dev": "tailwindcss -i ./src/input.css -o ./src/output.css --watch"
 6. In terminal (for shortcut):
     6.1 "npm run dev"
+
+---
+
+# Definition of Terms:
+
+1. Node Package Manager (NPM) = the primary package manager for Node.js and the JavaScript ecosystem. Its core purpose in programming is to facilitate the management and sharing of reusable code packages.
