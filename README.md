@@ -155,3 +155,5 @@ This section is dedicated for explaining the gist of how this setup with node an
 1. Node Package Manager (NPM) = the primary package manager for Node.js and the JavaScript ecosystem. Its core purpose in programming is to facilitate the management and sharing of reusable code packages.
 
 2. Tailwind CSS = an open-source CSS framework focused on utility classes that helps in styling web interfaces. It helps streamline the web development process by removing the need to write and maintain large, custom CSS files.
+
+3. Loyalty Programs = programs offered in Kenzo Cafe, such as **Factory Trip** and **Trip to Switzerland** to VIP customers.
