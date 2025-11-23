@@ -156,4 +156,6 @@ This section is dedicated for explaining the gist of how this setup with node an
 
 2. Tailwind CSS = an open-source CSS framework focused on utility classes that helps in styling web interfaces. It helps streamline the web development process by removing the need to write and maintain large, custom CSS files.
 
-3. Loyalty Programs = programs offered in Kenzo Cafe, such as **Factory Trip** and **Trip to Switzerland** to VIP customers.
+3. Loyalty Programs = programs offered in Kenzo Cafe, such as **Factory Trip** and **Trip to Switzerland** to VIP customers.    
+
+4. npm run dev = a command used for executing custom script named "dev" defined within the scripts section of the project's package.json file.
