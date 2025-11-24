@@ -159,3 +159,5 @@ This section is dedicated for explaining the gist of how this setup with node an
 3. Loyalty Programs = programs offered in Kenzo Cafe, such as **Factory Trip** and **Trip to Switzerland** to VIP customers.    
 
 4. npm run dev = a command used for executing custom script named "dev" defined within the scripts section of the project's package.json file.
+
+5. npm install -D tailwindcss = adds Tailwind CSS and its needed parts to the system.
