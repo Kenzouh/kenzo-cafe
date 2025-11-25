@@ -161,3 +161,5 @@ This section is dedicated for explaining the gist of how this setup with node an
 4. npm run dev = a command used for executing custom script named "dev" defined within the scripts section of the project's package.json file.
 
 5. npm install -D tailwindcss = adds Tailwind CSS and its needed parts to the system.
+
+6. npx tailwindcss init = a command used for setting up Tailwind CSS.
