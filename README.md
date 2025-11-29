@@ -166,3 +166,5 @@ This section is dedicated for explaining the gist of how this setup with node an
   - Node Package eXecute (npx) = NPX is a command-line tool that allows you to run any JavaScript package from the npm registry without having to install it globally or locally first. It is useful for one-off commands, running projects that are only needed temporarily, and avoiding "package pollution" from globally installed packages.
   - tailwindcss = a utility-first CSS framework designed for rapidly building custom user interfaces directly within HTML.
   - init = initialize.
+
+  7. @tailwind base = the first layer of the framework's CSS, which includes a reset stylesheet called "Preflight" that provides a consistent starting point by applying sensible default styles to basic HTML elements like headings, paragraphs, and links.
