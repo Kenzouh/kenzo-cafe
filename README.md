@@ -167,6 +167,8 @@ This section is dedicated for explaining the gist of how this setup with node an
   - tailwindcss = a utility-first CSS framework designed for rapidly building custom user interfaces directly within HTML.
   - init = initialize.
 
-  7. @tailwind base = the first layer of the framework's CSS, which includes a reset stylesheet called "Preflight" that provides a consistent starting point by applying sensible default styles to basic HTML elements like headings, paragraphs, and links.
+7. @tailwind base = the first layer of the framework's CSS, which includes a reset stylesheet called "Preflight" that provides a consistent starting point by applying sensible default styles to basic HTML elements like headings, paragraphs, and links.
 
 8. @tailwind components = a directive that is used in Tailwind CSS to define reusable UI components, such as buttons, cards, and navigation bars, which are composed of smaller utility classes.
+
+9. @tailwind utilities = is a directive in a CSS file, which serves as a placeholder for where all Tailwind's pre-built utility classes will be injected during the compilation process.
