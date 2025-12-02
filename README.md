@@ -172,3 +172,5 @@ This section is dedicated for explaining the gist of how this setup with node an
 8. @tailwind components = a directive that is used in Tailwind CSS to define reusable UI components, such as buttons, cards, and navigation bars, which are composed of smaller utility classes.
 
 9. @tailwind utilities = is a directive in a CSS file, which serves as a placeholder for where all Tailwind's pre-built utility classes will be injected during the compilation process.
+
+10. input.css = the main CSS file where you import Tailwind's base styles, components, and utilities, and where you might add your own custom CSS.
