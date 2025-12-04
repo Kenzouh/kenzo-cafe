@@ -176,3 +176,5 @@ This section is dedicated for explaining the gist of how this setup with node an
 10. input.css = the main CSS file where you import Tailwind's base styles, components, and utilities, and where you might add your own custom CSS.
 
 11. output.css = the final, compiled CSS file that contains all the styles your project actually uses.
+
+12. -i = input
