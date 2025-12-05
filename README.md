@@ -178,3 +178,5 @@ This section is dedicated for explaining the gist of how this setup with node an
 11. output.css = the final, compiled CSS file that contains all the styles your project actually uses.
 
 12. -i = input
+
+13. -o = output
