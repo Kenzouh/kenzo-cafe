@@ -182,3 +182,5 @@ This section is dedicated for explaining the gist of how this setup with node an
 13. -o = output
 
 14. --watch = this flag is a command-line option used with the Tailwind CLI tool to automatically rebuild your CSS file whenever changes are made to your source files (HTML, JavaScript, etc.).
+
+15. package.json = serves as a central hub for metadata about a project or package. It is a JSON file located in the root directory of a project.
