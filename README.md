@@ -188,3 +188,5 @@ This section is dedicated for explaining the gist of how this setup with node an
 16. scripts = this field is an object that defines a set of custom commands or "scripts" that can be executed using npm run (or yarn run). These scripts automate common development tasks, making them easier to manage and share among team members.
 
 17. Git Bash = is a command-line interface (CLI) application for Microsoft Windows that provides a Unix-like environment for using Git and other command-line tools.
+
+18. terminal = a text-based interface that allows users to interact with a computer's operating system and run programs using commands. It provides a command-line interface (CLI) where users type commands and receive text-based output.
