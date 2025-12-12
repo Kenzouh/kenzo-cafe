@@ -192,3 +192,5 @@ This section is dedicated for explaining the gist of how this setup with node an
 18. terminal = a text-based interface that allows users to interact with a computer's operating system and run programs using commands. It provides a command-line interface (CLI) where users type commands and receive text-based output.
 
 19. Embedded JavaScript (EJS) = a popular, simple, and lightweight templating language (or view engine) that allows developers to generate HTML markup with plain JavaScript code. 
+
+20. dev = is a shortcut command that compiles Tailwind CSS and automatically refreshes the output every time you edit your files.
