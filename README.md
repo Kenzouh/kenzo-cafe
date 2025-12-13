@@ -194,3 +194,5 @@ This section is dedicated for explaining the gist of how this setup with node an
 19. Embedded JavaScript (EJS) = a popular, simple, and lightweight templating language (or view engine) that allows developers to generate HTML markup with plain JavaScript code. 
 
 20. dev = is a shortcut command that compiles Tailwind CSS and automatically refreshes the output every time you edit your files.
+
+21. npm run = is a command provided by the npm CLI which allows you to instantiate a shell and execute the command provided in the package.json file of your project.
