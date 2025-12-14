@@ -196,3 +196,5 @@ This section is dedicated for explaining the gist of how this setup with node an
 20. dev = is a shortcut command that compiles Tailwind CSS and automatically refreshes the output every time you edit your files.
 
 21. npm run = is a command provided by the npm CLI which allows you to instantiate a shell and execute the command provided in the package.json file of your project.
+
+22. -D = this flag installs the package as a development dependency.
