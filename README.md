@@ -198,3 +198,5 @@ This section is dedicated for explaining the gist of how this setup with node an
 21. npm run = is a command provided by the npm CLI which allows you to instantiate a shell and execute the command provided in the package.json file of your project.
 
 22. -D = this flag installs the package as a development dependency.
+
+23. node = an abbreviation of Node.js, which is a JavaScript runtime environment that allows developers to run JavaScript code outside of a web browser.
