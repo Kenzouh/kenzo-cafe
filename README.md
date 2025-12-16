@@ -200,3 +200,5 @@ This section is dedicated for explaining the gist of how this setup with node an
 22. -D = this flag installs the package as a development dependency.
 
 23. node = an abbreviation of Node.js, which is a JavaScript runtime environment that allows developers to run JavaScript code outside of a web browser.
+
+23. express = provides a minimalist, flexible, and robust web application framework for Node.js.
