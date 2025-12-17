@@ -202,3 +202,5 @@ This section is dedicated for explaining the gist of how this setup with node an
 23. node = an abbreviation of Node.js, which is a JavaScript runtime environment that allows developers to run JavaScript code outside of a web browser.
 
 23. express = provides a minimalist, flexible, and robust web application framework for Node.js.
+
+24. JavaScript Object Notation (json) = a lightweight, text-based data interchange format designed to be human-readable and machine-parsable.
