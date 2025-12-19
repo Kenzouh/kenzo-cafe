@@ -206,3 +206,5 @@ This section is dedicated for explaining the gist of how this setup with node an
 24. JavaScript Object Notation (json) = a lightweight, text-based data interchange format designed to be human-readable and machine-parsable.
 
 25. Hypertext Markup Language (HTML) = is the standard markup language for documents designed to be displayed in a web browser.
+
+26. Cascading Style Sheets (CSS) = is a style sheet language used for specifying the presentation and styling of a document written in a markup language such as HTML or XML.
