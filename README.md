@@ -210,3 +210,5 @@ This section is dedicated for explaining the gist of how this setup with node an
 26. Cascading Style Sheets (CSS) = is a style sheet language used for specifying the presentation and styling of a document written in a markup language such as HTML or XML.
 
 27. JavaScript (JS) = an OOP programming language commonly used to create interactive effects within web browsers.
+
+28. Partials = a folder that contains reusable fragment of code or markup.
