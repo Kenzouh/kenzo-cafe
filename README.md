@@ -211,4 +211,6 @@ This section is dedicated for explaining the gist of how this setup with node an
 
 27. JavaScript (JS) = an OOP programming language commonly used to create interactive effects within web browsers.
 
-28. Partials = a folder that contains reusable fragment of code or markup.
+28. Partials = a folder that contains reusable fragment of code or markup.  
+
+29. Views = is the folder that contains the user interface (UI) component responsible for presenting data to the user and handling their interactions, like buttons and forms, using technologies such as HTML, CSS, and JavaScript.
