@@ -216,3 +216,5 @@ This section is dedicated for explaining the gist of how this setup with node an
 29. Views = is the folder that contains the user interface (UI) component responsible for presenting data to the user and handling their interactions, like buttons and forms, using technologies such as HTML, CSS, and JavaScript.
 
 30. src = is a conventional location for the original raw code that needs processing by the build tools. It is where the development-related files that require a build process to become production-ready are kept.
+
+31. img = is a folder containing the images used in this project.
