@@ -218,3 +218,5 @@ This section is dedicated for explaining the gist of how this setup with node an
 30. src = is a conventional location for the original raw code that needs processing by the build tools. It is where the development-related files that require a build process to become production-ready are kept.
 
 31. img = is a folder containing the images used in this project.
+
+32. package-lock.json = is a lockfile that records the exact version of every installed dependency and sub-dependency in a Node.js project.
