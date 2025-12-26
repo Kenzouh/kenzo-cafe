@@ -220,3 +220,5 @@ This section is dedicated for explaining the gist of how this setup with node an
 31. img = is a folder containing the images used in this project.
 
 32. package-lock.json = is a lockfile that records the exact version of every installed dependency and sub-dependency in a Node.js project.
+
+33. public = is a directory that stores static files that are directly accessible to a web browser or client via a URL. It serves as the web-accessible root of the application.
