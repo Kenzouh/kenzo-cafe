@@ -222,3 +222,5 @@ This section is dedicated for explaining the gist of how this setup with node an
 32. package-lock.json = is a lockfile that records the exact version of every installed dependency and sub-dependency in a Node.js project.
 
 33. public = is a directory that stores static files that are directly accessible to a web browser or client via a URL. It serves as the web-accessible root of the application.
+
+34. package.json = serves as a manifest for a Node.js project or npm package, containing human-readable metadata about the project and defining the functional attributes that the npm (Node Package Manager) CLI uses to manage it. It is a core component of the Node.js ecosystem, located in the root directory of the project.
