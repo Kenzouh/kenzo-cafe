@@ -226,3 +226,5 @@ This section is dedicated for explaining the gist of how this setup with node an
 34. package.json = serves as a manifest for a Node.js project or npm package, containing human-readable metadata about the project and defining the functional attributes that the npm (Node Package Manager) CLI uses to manage it. It is a core component of the Node.js ecosystem, located in the root directory of the project.
 
 35. tailwind.config.js = is the primary configuration file for Tailwind CSS projects (in versions prior to v4.0), where developers customize the framework's default settings to match a project's specific design needs.
+
+36. fonts = is a folder which includes the customized fonts used in this project. 
