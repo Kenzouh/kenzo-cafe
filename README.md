@@ -228,3 +228,5 @@ This section is dedicated for explaining the gist of how this setup with node an
 35. tailwind.config.js = is the primary configuration file for Tailwind CSS projects (in versions prior to v4.0), where developers customize the framework's default settings to match a project's specific design needs.
 
 36. fonts = is a folder which includes the customized fonts used in this project. 
+
+37. icons = is a folder which includes the customized SVG icons used in this project.
