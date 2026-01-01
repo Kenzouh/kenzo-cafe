@@ -232,3 +232,5 @@ This section is dedicated for explaining the gist of how this setup with node an
 37. icons = is a folder which includes the customized SVG icons used in this project.
 
 38. img = is a folder which includes the images used in this project.
+
+39. index.js = is the entry point that creates the Express app, defines routes, and starts the server.
