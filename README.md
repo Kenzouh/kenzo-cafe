@@ -234,3 +234,5 @@ This section is dedicated for explaining the gist of how this setup with node an
 38. img = is a folder which includes the images used in this project.
 
 39. index.js = is the entry point that creates the Express app, defines routes, and starts the server.
+
+40. css folder = a folder which contains the custom CSS used in the project, such as the font, and other contents.
